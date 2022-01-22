@@ -1,16 +1,18 @@
 // mod err;
 // mod start;
-mod db;
+// mod db;
 // mod iotext;
+mod postgre_test;
 
-use std::convert::From;
-use std::convert::Into;
+// use std::convert::From;
+// use std::convert::Into;
 
 fn main() {
     
+    postgre_test::db_test();
     // iotext::io_text();
 
-    db::db_test();
+    // db::db_test();
 
     /*
     //test git 
